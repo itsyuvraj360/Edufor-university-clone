@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Open+Sans:wght@300&family=Poppins:wght@100;200;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Puddles&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- --------------- header-------------------------->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <!-- close icon -->
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" style="color: #ffffff; "></i>
+                <ul>
+
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href=" contact.html" style="color: #f44336;">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- menu icon -->
+            <i class="fa-solid fa-bars " onclick="showMenu()" style="color: #ffffff; "></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- ------------------ Contact Us-------------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.2822652913746!2d-97.7552266887441!3d30.229026209696464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b492ae61201b%3A0x1142c282cbe51336!2sSt.%20Edward&#39;s%20University!5e0!3m2!1sen!2sin!4v1696514285655!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+
+            <div class="contact-col">
+                <div>
+
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>
+                            University of Engineering and Management, Gurukul Campus
+                        </h5>
+                        <p>Jaipur, Rajasthan, India</p>
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 6378281761 </h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-envelope"></i> <span>
+                        <h5>amalepandey56@gmail.com </h5>
+                        <p>Email us your queries</p>
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your Email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">send Message</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- -------------------- footer----------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities.
+            Meet the people and places that make Eduford home.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> By Codingly</p>
+    </section>
+
+
+    <!-- script for font awesome -->
+    <script src="https://kit.fontawesome.com/257887d050.js " crossorigin="anonymous "></script>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+
+</html>

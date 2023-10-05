@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+
+    <link rel="stylesheet" href="style.css">
+    <title> Our Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Open+Sans:wght@300&family=Poppins:wght@100;200;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Puddles&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- --------------- header-------------------------->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <!-- close icon -->
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" style="color: #ffffff; "></i>
+                <ul>
+
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li s>
+                        <a href="course.html" style="color: #f44336;">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html ">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- menu icon -->
+            <i class="fa-solid fa-bars " onclick="showMenu()" style="color: #ffffff; "></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+
+    </section>
+
+
+    <!-- -------courses-us content -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Explore the intersection of technology and society. Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today’s most pressing local, national and global
+            issues..
+        </p>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully
+                    accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community
+                    Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community
+                    Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor. Our Global Campus</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- facilities -->
+
+    <section class="facilites">
+        <h1>Our facilities</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you
+            belong here.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World class Library</h3>
+                <p>Pursue research at Eduford’s libraries, which include more than 3.5 million holdings. Whether your focus is on a specific discipline, interdisciplinary areas or emerging fields, our libraries offer academic resources, a maker hub, collaborative
+                    spaces and more..</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Playground</h3>
+                <p>The College introduces students to philosophy and theology and challenges them to delve deeply into the arts, humanities, languages, social sciences and sciences.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and healthy food</h3>
+                <p>Whether students pursue studies in Arabic, chemistry, government or one of hundreds of other opportunities, they are part of a rich legacy of academic excellence designed to serve them well in an ever-changing world.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- -------------------- footer----------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities.
+            Meet the people and places that make Eduford home.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> By Codingly</p>
+    </section>
+
+
+    <!-- script for font awesome -->
+    <script src="https://kit.fontawesome.com/257887d050.js " crossorigin="anonymous "></script>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+
+</html>
